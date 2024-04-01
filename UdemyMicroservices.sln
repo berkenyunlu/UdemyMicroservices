@@ -22,6 +22,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.IdentityServer", "IdentityServer\FreeCourse.IdentityServer\FreeCourse.IdentityServer.csproj", "{3B822355-7100-4596-A6AB-DDA7A85A6FDC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{386ABB2A-0591-406E-B13E-019589D6F7A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.PhotoStock", "Services\PhotoStock\FreeCourse.Services.PhotoStock\FreeCourse.Services.PhotoStock.csproj", "{55F29432-AA4E-4C1A-8607-0A2440F99561}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,10 @@ Global
 		{3B822355-7100-4596-A6AB-DDA7A85A6FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B822355-7100-4596-A6AB-DDA7A85A6FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B822355-7100-4596-A6AB-DDA7A85A6FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F29432-AA4E-4C1A-8607-0A2440F99561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F29432-AA4E-4C1A-8607-0A2440F99561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F29432-AA4E-4C1A-8607-0A2440F99561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F29432-AA4E-4C1A-8607-0A2440F99561}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,8 @@ Global
 		{4EC7B6A5-E711-44CA-82DD-16F8A62B81F0} = {DCF937A4-AC01-41A0-9952-3551151D88A5}
 		{FA079ED6-CF22-4302-8F50-7986B74FD5F3} = {590D1F3B-7609-4B93-8B01-99938E124D2E}
 		{3B822355-7100-4596-A6AB-DDA7A85A6FDC} = {158086D5-B439-4BE0-8DBD-1A29097F19F2}
+		{386ABB2A-0591-406E-B13E-019589D6F7A9} = {907A7556-39B6-4CE2-840B-7D23299FF94C}
+		{55F29432-AA4E-4C1A-8607-0A2440F99561} = {386ABB2A-0591-406E-B13E-019589D6F7A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77786E01-2A21-4192-A2D0-D8B1646080C5}
