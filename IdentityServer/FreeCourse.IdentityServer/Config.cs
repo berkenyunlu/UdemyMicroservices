@@ -35,14 +35,12 @@ namespace FreeCourse.IdentityServer
             new ApiScope[]
             {
                 new ApiScope("catalog_fullpermission","Catalog API için full erişim"),
-
                 new ApiScope("photo_stock_fullpermission","Photo Stock API için full erişim"),
-
-                     new ApiScope("basket_fullpermission","Basket API için full erişim"),
-                            new ApiScope("discount_fullpermission","Discount API için full erişim"),
-                             new ApiScope("order_fullpermission","Order API için full erişim"),
-                                 new ApiScope("payment_fullpermission","Payment API için full erişim"),
-                                   new ApiScope("gateway_fullpermission","Gateway API için full erişim"),
+                new ApiScope("basket_fullpermission","Basket API için full erişim"),
+                new ApiScope("discount_fullpermission","Discount API için full erişim"),
+                new ApiScope("order_fullpermission","Order API için full erişim"),
+                new ApiScope("payment_fullpermission","Payment API için full erişim"),
+                new ApiScope("gateway_fullpermission","Gateway API için full erişim"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
